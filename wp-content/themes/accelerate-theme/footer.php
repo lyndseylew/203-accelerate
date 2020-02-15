@@ -16,7 +16,7 @@
 			<div class="site-info">
 				<div class="site-description">
 					<p><?php bloginfo('description'); ?></p>
-					<p>&copy; <?php bloginfo('title'); ?>, LLC
+					<p><a href="<?php echo site_url(); ?>/wp-admin/">&copy;</a> <?php bloginfo('title'); ?>, LLC
 				</div>
 
 				<nav class="social-media-navigation" role="navigation">

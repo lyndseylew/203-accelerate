@@ -12,9 +12,175 @@ Text Domain:  accelerate-theme-child
 #masthead {
   background: none repeat scroll 0 0 #45ac9d;;
 }
+.site-content {
+  display: flex;
+}
 .home-page {
   background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+  margin: 0 0 3em;
 }
 .button {
 	background: #45ac9d;
+}
+/* Featured Work on Homepage */
+.featured-work {
+  margin-bottom: 3em;
+}
+.featured-work h4 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.featured-work .homepage-featured-work {
+  list-style-type: none;
+}
+.featured-work h3 {
+  margin: 0;
+  text-align: center;
+  font: 17px/1.65 'Open Sans', Arial, sans-serif
+}
+.featured-work ul li {
+  display: inline-block;
+  width: 30%;
+  margin: 0 10px;
+}
+/* End Featured Work */
+.blog-post {
+	width: 50%;
+	float: left;
+	margin-bottom: 2em;
+}
+.blog-post h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+.blog-post h3 {
+	font-size: 1.5em;
+  margin-top: 1.5em;
+}
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+/* Case Studies */
+.case-study {
+  font: 400 1em 'Open Sans', Arial, sans-serif;
+}
+.case-study-sidebar {
+  float: left;
+  width: 40%;
+}
+.case-study-sidebar h2 {
+  margin-bottom: 0;
+  font: 400 1.25em/2 'Open Sans', Arial, sans-serif;
+}
+.case-study-sidebar h2 a {
+  color: inherit;
+  font: inherit;
+  text-transform: none;
+}
+.case-study-sidebar h5 {
+  margin: 0;
+  font: 400 0.9em/2 'Open Sans', Arial, sans-serif;
+  color: #a6a6a6;
+}
+.case-study-sidebar h6 {
+  margin: 0;
+  font: 400 0.9em/2 'Open Sans', Arial, sans-serif;
+  color: #3b3b3b;
+}
+.case-study-sidebar a {
+  font-family: 'Montserrat';
+  color: #45ac9d;
+  text-transform: uppercase;
+}
+.case-study-images {
+  float: left;
+  width: 60%;
+  text-align: right;
+}
+.case-study-images img {
+  max-width: 500px;
+  margin: 1.5em 0;
+}
+/* About Page */
+.about-page {
+  display: flex;
+  background: url("img/taxi-photo.jpg") no-repeat scroll right bottom / cover rgba(0, 0, 0, 0);
+  min-height: 300px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.about-page .main-content {
+  max-width: 50%;
+}
+.service-intro {
+  justify-content: center;
+}
+.service-intro .main-content {
+  max-width: 55%;
+  text-align: center;
+}
+.service-intro h2 {
+  text-transform: uppercase;
+  font: 700 0.9em/2 'Montserrat','Open Sans', Arial, sans-serif;
+}
+.service {
+  display: flex;
+  align-items: center;
+  margin: 3em 0;
+}
+.first {
+  order: 1;
+}
+.second {
+  order: 2;
+}
+.service-image {
+  min-width: 33%;
+}
+.service-image.second {
+  text-align: right;
+}
+.service-description h2 {
+  margin: 0;
+  font: 400 1.25em/2 'Open Sans', Arial, sans-serif;
+}
+.service-description p {
+  color: #3b3b3b;
+  font: 17px/1.65 'Open Sans', Arial, sans-serif;
+  margin: 1em auto;
+}
+/* Navigation */
+.nav {
+	border-top: solid 1px #bfbfbf;
+  padding-top: 1em;
+  text-transform: uppercase;
+  color: #45ac9d;
+}
+.nav a {
+	color: #3b3b3b;
+	text-decoration: none;
+	padding: 0 12px;
+}
+.nav a:hover {
+	text-decoration: underline;
+}
+.nav .left,
+.nav .right {
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+.nav .left {
+	float: left;
+}
+.nav .right {
+	float: right;
+}
+.navigation .pages {
+	color: #a6a6a6;
 }
